@@ -4,7 +4,7 @@
 - ID Dicoding: bagas_shw
 
 ## Deployed Link
-[Beijing Air Quality Dashboard](https://beijing-air-quality-analysis.streamlit.app/).
+[Beijing Air Quality Dashboard](https://beijing-air-quality-dicoding.streamlit.app/).
 
 ## Contents
 - [Project Overview](#project-overview)
