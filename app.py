@@ -17,14 +17,14 @@ kondisi_cuaca = data_kualitas_udara.columns[6:10].tolist() + [data_kualitas_udar
 tingkat_kualitas = ['Good', 'Hazardous', 'Moderate', 'Unhealthy', 'Unhealthy for Sensitive Groups', 'Very Unhealthy']
 
 # Konfigurasi halaman Streamlit
-st.set_page_config(page_title='Dashboard Kualitas Udara', page_icon='https://i.ibb.co/gmPh93j/Pngtree-chemical-plant-air-pollution-5929941.png')
+st.set_page_config(page_title='Dashboard Kualitas Udara', page_icon='https://i.ibb.co/wgTJFgV/pollution.png')
 
 st.title('Dashboard Analisis Kualitas Udara Beijing (2013 - 2017)')
 with st.sidebar:
     st.markdown(
         """
         <div style="text-align: center;">
-            <img src="https://i.ibb.co/gmPh93j/Pngtree-chemical-plant-air-pollution-5929941.png" alt="logo" width="200">
+            <img src="https://i.ibb.co/wgTJFgV/pollution.png" alt="logo" width="200">
         </div>
         """,
         unsafe_allow_html=True
